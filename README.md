@@ -48,25 +48,23 @@ project-root/
 ```bash
 git clone <repository-url>
 cd mern-auth
-
 2. Backend Setup
-bashCopycd backend
+cd backend
 npm install
 Create a .env file in the backend directory:
-yPORT=5000
+PORT=5000
 MONGODB_URI=your_mongodb_uri
 JWT_SECRET=your_jwt_secret
-
 3. Frontend Setup
-bash frontend
+ frontend
 npm install
 Running the Application
 Start the Backend Server
-bash backend
+backend
 nodemon index.js
 The server will run on http://localhost:5000
 Start the Frontend Development Server
-bash frontend
+ frontend
 npm run dev
 The frontend will run on http://localhost:5173
 API Endpoints
