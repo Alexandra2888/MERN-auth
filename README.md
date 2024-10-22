@@ -48,13 +48,15 @@ project-root/
 ```bash
 git clone <repository-url>
 cd mern-auth
+
 2. Backend Setup
 bashCopycd backend
 npm install
 Create a .env file in the backend directory:
-envCopyPORT=5000
+yPORT=5000
 MONGODB_URI=your_mongodb_uri
 JWT_SECRET=your_jwt_secret
+
 3. Frontend Setup
 bash frontend
 npm install
@@ -76,8 +78,8 @@ GET /api/auth/profile - Get user profile (Protected route)
 
 Environment Variables
 Backend (.env)
-envCopyPORT=5000
+PORT=5000
 MONGODB_URI=your_mongodb_uri
 JWT_SECRET=your_jwt_secret
 Frontend (.env)
-envCopyVITE_API_URL=http://localhost:5000/api
+VITE_API_URL=http://localhost:5000/api
